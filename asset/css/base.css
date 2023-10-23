@@ -19,3 +19,11 @@ button {
 input {
     outline: none;
 }
+body {
+    padding: 200px 300px;
+}
+@media (max-width:768px) {
+    body {
+        padding: 0 20px;
+    }
+}
