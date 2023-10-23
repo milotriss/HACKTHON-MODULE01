@@ -1,3 +1,7 @@
+:root {
+    --primary: #fff200;
+    --text: #fafafa;
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +13,11 @@ html {
 a {
     text-decoration: none;
 }
-.ul, ol {
+ul, ol {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button {
     outline: none;
@@ -19,11 +26,7 @@ button {
 input {
     outline: none;
 }
-body {
-    padding: 200px 300px;
+header {
+    position: relative;
 }
-@media (max-width:768px) {
-    body {
-        padding: 0 20px;
-    }
-}
+
